@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form method="post" action="the_ur_or_the_end_point_to_send_the_data">
+            <label for="username">Username:</label>
+             <!--click on the label and the focus will be on text box. This is because we linked it with for attribute-->
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="password">Enter password</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <!--name is used for server side processing.-->
+            <p>select your age: </p>
+            <br>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">For 0-25</label>
+            <input type="radio" name="age" value="26-50" id="option-1">
+            <label for="option-2">For 26-50</label>
+            <input type="radio" name="age" value="51-75" id="option-3">
+            <label for="option-3">For 51-75</label>
+
+            <br>
+            <label for="question">Enter the security question:</label>
+            <select name="question">
+                <option value="q1">What color do you like?</option>
+                <option value="q2">Where were you born?</option>
+                <option value="q3">What is your favourite food?</option>
+                <option value="q4">Which tea do you drink?</option>
+            </select>
+            <br> 
+            <input type="submit" value="submit form">
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--name is also used to group form elements-->
+        <form>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female <br>
+            <input type="radio" name="gender2" value="None">None<br>
+
+            <!--in the third radio button we see that the name is gender2. In radio buttons we can select
+            only one. However since the first two radio buttons have name=gender and the third one has
+        name=gender2, we can select one from the first two and we can select third one too!-->
+
+        <!--for radio button we need to add value attribute because radiobutton doesnt ask user to enter values-->
+        </form>
+    </body>
+</html>

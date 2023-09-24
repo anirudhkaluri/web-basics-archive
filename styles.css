@@ -1,0 +1,47 @@
+h1{
+    color:blue;
+    background-color:yellow;
+    font-size: 50px;
+ /*   text-decoration: line-through; This attribute strikes the text*/
+    text-decoration:underline;
+    font-family: Arial;
+    text-align: center;
+}
+p{
+    color:violet;
+    font-family:arial;
+    text-align:center;
+    line-height: 20px;   /*vertical spacing between different lines in the text */
+    letter-spacing: 1px;
+    column-count:3; /* number of columns */
+    column-gap: 100px; /* gap between the columns*/
+}
+
+ul{
+    /*border-width:4px ; sets border around the element */
+    /* borders are made up of different parts*/
+    /* border-style: solid;
+    border-color: crimson; */
+   /* border: 4px solid crimson; */ /* The above comments can be done in a single line*/
+   border-bottom: 4px solid crimson;
+   border-left:8px dashed crimson;
+   border-right:8px dotted crimson;
+   border-top:4px solid crimson;
+   margin:100px;
+   padding:50px;
+   text-align:center;
+
+   /*margin is outside of the element border*/
+   /*padding is for internal space*/
+}
+
+li{
+    list-style-type: lower-roman; /*by default they are disc*/
+   /* text-shadow: 2px 2px rgb(18, 14, 14); */ /*if you zoom in then you can notice a little shado in the list items */
+    color: #000000; /* all 0s are black. all fs gives white */
+    text-align: center;
+}
+
+#convertDisplay{ /*using css with id requires # */ /*this is in four.html*/
+    display:block;
+}

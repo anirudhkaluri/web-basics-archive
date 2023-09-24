@@ -1,0 +1,17 @@
+nav li a:hover{
+    /*when you hover over the a tags in eight.html youw ill see the effects*/
+    text-decoration: overline;
+    background-color: pink;
+}
+li{
+    display:inline;
+}
+
+form input:focus {
+    /*focus means when you click on that element*/
+    border:5px dotted red;
+}
+input[type="email"]:valid{ 
+    /*as soon as the field becomes valid  this style takes effect*/
+    border:10px dashed green;
+}

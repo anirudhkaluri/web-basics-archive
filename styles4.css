@@ -1,0 +1,32 @@
+a[href]{
+    /*style a tags having href attributes */
+    color:red;
+    text-align: center;
+    display:block; /*takes up entire width even though it is an inline tag*/
+}
+
+a[href="google.co.in"]{
+    /*used to style attributes whose value is given in the quotes */
+    color:green;
+    border:10px dotted crimson;
+    padding:20px;
+    margin:20px;
+
+}
+
+a[href*="twitter"]{
+    /*href containing any mention of cbit anywhere will get styled*/
+    background-color: rgb(67, 8, 62);
+    font-weight:bold;
+    text-decoration:wavy;
+    text-transform:uppercase;
+}
+
+a[href$="ac.in"]{
+    /*styles any a tag having href attribute ending with ac.in*/
+    background-color:aqua;
+    border:10px dashed yellow;
+    padding:50px;
+    text-align: center;
+    margin:50px;
+}

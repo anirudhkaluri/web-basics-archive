@@ -1,0 +1,23 @@
+.lolpara{ /*this class is in five.html */
+    color:blue;
+    border: 20px solid crimson;
+}
+div.lolclass{ /* in five.html div and ul both tags have lolclass as class. but i want only div tag to have this style */
+    color:green;
+    background-color: black;
+    padding: 10px;
+    margin:20px;
+    border:10px solid red;
+}
+
+div.lolclass.dummyclass{ /*this applies to a div section which belongs to two classes */
+    color:rgb(110, 62, 102);
+    font-family:Verdana;
+    text-align: centre;
+}
+
+#spanid{
+    letter-spacing: 10px;
+    column-count: 2;
+    column-gap:200px;
+}

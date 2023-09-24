@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles3.css">
+    </head>
+    <body>
+        <div>
+            <p>
+                This is paragraph in div tag1. Both of them have no class or id yet they are styled using
+                div p{} descendent style rule in styles3.css. Notice space between div and p. 
+            </p>
+            <ul>
+                <li>This is a list which has been styled using descendent style rules</li>
+                <li>This list is in Division 1</li>
+                <li> the list is of class "dummy"</li>
+                <li> all the tags with class dummy inside div tags will be styled using </li>
+                <li>div .dummy{} style rules in styles3.css</li>
+            </ul>
+        </div>
+
+        <div>
+            <p>
+                This is a paragraph in div tag 2. Since it is p tag inside a div tag it will be styled with the style rule
+                div p{} in styles3.css just like the above paragraph in division section1.
+            </p>
+            <span class="dummy">
+                This is a span tag which is in another division section. Say this is division section 2. 
+                Since class is dummy, it will be styled just like the list in division section 1.
+            </span>
+        </div>
+    </body>
+</html>
